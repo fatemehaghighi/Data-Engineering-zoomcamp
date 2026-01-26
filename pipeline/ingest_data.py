@@ -70,5 +70,5 @@ def run(pg_user, pg_pass, pg_host, pg_port, pg_db, year, month, chunksize, targe
             if_exists="append"
         )
 
-if __name__== '__main__':
-    run()
+#if __name__== '__main__':
+#   run()

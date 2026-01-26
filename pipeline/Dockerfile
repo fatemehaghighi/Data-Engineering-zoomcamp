@@ -17,6 +17,7 @@ RUN uv sync --locked
 
 # Copy application code
 COPY ingest_data.py .
+COPY ingest_data_tripdata.py .
 
 # Set entry point
-ENTRYPOINT ["python", "ingest_data.py"]
+ENTRYPOINT ["python", "ingest_data_tripdata.py"]
