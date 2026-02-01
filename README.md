@@ -42,11 +42,11 @@ I created a single reusable Kestra flow (`homework2_gcp_taxi.yaml`) that process
 
 **Code in Flow:**
 
-![Q1 & Q2 Code](screenshots/Q1_Q2_code_in_flow.png)
+![Q1 & Q2 Code](pipeline/screenshots/Q1_Q2_code_in_flow.png)
 
 **Result:**
 
-![Question 1 Answer](screenshots/Q1.png)
+![Question 1 Answer](pipeline/screenshots/Q1.png)
 
 ---
 
@@ -71,7 +71,7 @@ tasks:
 
 **Result:**
 
-![Question 2 Answer](screenshots/Q2.png)
+![Question 2 Answer](pipeline/screenshots/Q2.png)
 
 ---
 
@@ -93,7 +93,7 @@ WHERE filename LIKE 'yellow_tripdata_2020%'
 
 **Result:**
 
-![Question 3 Answer](screenshots/Q3.png)
+![Question 3 Answer](pipeline/screenshots/Q3.png)
 
 ---
 
@@ -115,7 +115,7 @@ WHERE filename LIKE 'green_tripdata_2020%'
 
 **Result:**
 
-![Question 4 Answer](screenshots/Q4.png)
+![Question 4 Answer](pipeline/screenshots/Q4.png)
 
 ---
 
@@ -137,7 +137,7 @@ WHERE filename = 'yellow_tripdata_2021-03.csv'
 
 **Result:**
 
-![Question 5 Answer](screenshots/Q5.png)
+![Question 5 Answer](pipeline/screenshots/Q5.png)
 
 ---
 
@@ -151,7 +151,7 @@ WHERE filename = 'yellow_tripdata_2021-03.csv'
 
 **AI Copilot Query:**
 
-![Question 6 - AI Copilot](screenshots/Q6-1.png)
+![Question 6 - AI Copilot](pipeline/screenshots/Q6-1.png)
 
 **Code Implementation:**
 ```yaml
@@ -162,7 +162,7 @@ triggers:
     timezone: "America/New_York"
 ```
 
-![Question 6 - Code](screenshots/Q6-2.png)
+![Question 6 - Code](pipeline/screenshots/Q6-2.png)
 
 ---
 
