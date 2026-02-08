@@ -49,7 +49,7 @@ FROM `dtc-de-course-485513.zoomcamp.yellow_taxi_materialized`;
 
 **Result:**
 
-![Question 1 Answer](screenshots/H3_Screenshots/Q1.png)
+![Question 1 Answer](pipeline/screenshots/H3_Screenshots/Q1.png)
 
 ---
 
